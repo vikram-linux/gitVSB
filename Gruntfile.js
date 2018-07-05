@@ -1,6 +1,9 @@
+
+
 module.exports = function( grunt ) {
 	"use strict";
 
+        console.log("adding a new line");
 	function readOptionalJSON( filepath ) {
 		var stripJSONComments = require( "strip-json-comments" ),
 			data = {};

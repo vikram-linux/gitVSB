@@ -7,7 +7,7 @@ define( [
 ], function( jQuery, access, camelCase, dataPriv, dataUser ) {
 
 "use strict";
-
+console.log("Modifiing the data.js");
 //	Implementation Summary
 //
 //	1. Enforce API surface and semantic compatibility with 1.9.x branch
